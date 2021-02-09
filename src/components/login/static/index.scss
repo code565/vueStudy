@@ -1,0 +1,191 @@
+.container{background: url(./images/loginbg.jpg) no-repeat center bottom; width: 100%;height: 100%}
+.w1200{width: 1200px;margin: 0 auto;}
+// .h2logo{position:fixed;left:50%;margin-left:-495px;width:990px;top:20px;}
+.loginbox{width:990px;height: 412px;position: absolute;left: 50%;top:50%;margin-left:-495px;margin-top: -206px;}
+.loginleft{width: 440px;margin-top: 65px;}
+// .loginleft h2{font-size: 54px;font-weight: bold;color: #000;line-height: 60px;margin-bottom: 25px;margin-top: 46px;}
+// .loginleft h2 span{color: #dd4f50;}
+.loginleft h3{font-size: 28px;line-height: 30px;border-bottom: 1px solid #303036;padding-bottom: 10px;margin-bottom: 10px;}
+.loginleft p{font-size: 18px;color: #000;line-height: 24px;}
+// .loginleft .nocurstorm{line-height: 24px;color: #555555;font-size: 18px;padding-top:38px;}
+// .loginleft .nocurstorm a{color: #dd4f50;}
+.loginright{width: 420px;height: 380px;padding: 52px 30px 0;overflow: hidden;background:#fff;box-shadow: 0 0 2px 8px rgba(247, 247, 247, 0.6)}
+.loginright h2{margin-bottom: 26px;}
+.loginright h2 img{display: block;width:158px;height: 38px;margin: 0 auto;}
+.loginrightTab{border: 1px solid #eee;}
+.loginrightTab p{float:left;width:50%;height:40px;line-height:40px;text-align:center;font-size:14px;color:#626262;cursor:pointer;background:#f1f1f1;}
+.loginrightTab p span{background: url(./images/ewmsam.png) no-repeat left center;padding-left:20px;display:inline-block;}
+.loginrightTab .loginrightTabActive{background:#fff;}
+.loginrightTabCon{padding:30px 0 0;}
+// .appcodeexample,.appcodebox{-webkit-transition: all .5s ease-in-out;
+//     -moz-transition: all .5s ease-in-out;
+//     -o-transition: all .5s ease-in-out;
+//     -ms-transition: all .5s ease-in-out;
+//     transition: all .5s ease-in-out;
+// }
+// .appcodeexample{position:absolute;top: -20px;right:20px;opacity: 0;filter: alpha(opacity=0);width: 140px;height: 175px;}
+.appcodebox{position: relative;left: 0;}
+.appcodebox img{padding: 2px;background: #fff;box-shadow: 0 0 5px rgba(0, 0, 0, .3);}
+.appCodeRefresh{position: absolute;top: 0;left: 113px;width: 134px; height: 134px; cursor: pointer;}
+.appCode-mask {height: 100%;background: #000;opacity: .7;filter: alpha(opacity=70);}
+.appCode-wrap {position: absolute;top: 0;left: 0;width: 100%;padding-top: 44px;text-align: center;color: #fff;line-height: 26px;}
+
+
+// .login-error{background: #eee;height: 49px;line-height: 26px;font-size: 12px;color: #898989;padding:0 6px;}
+// .login-error i{background: url(/static/images/logintips.png) no-repeat;width: 14px;height: 14px;overflow: hidden;margin-top: 6px;}
+// .login-error a{color: #dd4f50;}
+// .login-error a:hover{color:#dd4f50;}
+.login-input{border: 1px solid #dddddd;width: 358px;height: 44px;}
+.mb30{margin-bottom: 30px;}
+.mb7{margin-bottom:7px;}
+.login-input .login-input-l{width: 44px;height:44px;border-right: 1px solid #ddd;}
+.login-input .login-input-l i{width: 20px;height: 26px;overflow: hidden;display: block;margin-top: 10px;margin-left: 13px;}
+.login-input .login-input-u i{background: url(./images/loginu.png) no-repeat;}
+.login-input .login-input-p i{background: url(./images/loginp.png) no-repeat;}
+.login-input .login-input-r{margin-left: 45px;overflow: hidden;}
+.login-input .login-input-r input{width: 311px;height: 42px;line-height: 42px;padding:0 5px;font-size: 14px;border:0;}
+// .login-rule{font-size: 14px;color: #898989; line-height: 20px;vertical-align: middle;}
+// .login-rule .login-checkbox{background: url(/static/images/logincheckbox.png) no-repeat;width: 14px;height: 14px;overflow: hidden;margin-top: 3px;margin-right: 5px;}
+// .login-rule .login-checkbox-active{background-position: 0 -24px;}
+// .login-rule input[type=checkbox]{opacity: 0;filter: alpha(opacity=0);cursor: pointer;}
+// .login-rule a{color: #10c0fa;}
+.login-submit{padding-top: 25px;}
+.login-submit input{width: 100%;height: 46px;line-height: 46px;border: 0;background: #dd4f50;text-align: center;font-size: 18px;color: #fff;letter-spacing: 10px;cursor: pointer;}
+
+
+
+/*Íü¼ÇÃÜÂë*/
+.backPasswordBox{display:none;position:fixed;left:50%;top: 50%;margin:-137px 0 0 -243px;width:485px;height:274px;z-index:200;box-shadow:0 8px 2px 2px rgba(0,0,0,.04), 0 8px 2px 2px rgba(0,0,0,.04);}
+
+.backPassword-head{padding:10px;background:#dd4f50;font-size:16px;color:#fff;line-height:26px;}
+.closePass1 {margin-top: 7px;width: 12px;height: 12px;background: url(/static/images/closeX.png) no-repeat;cursor: pointer;}
+.backPassword {padding: 20px 30px;background: #fff;text-align: center;}
+.tellBack {padding: 12px 102px;margin-top: 25px;display: block;background: #dd4f50;color: #fff;font-size: 16px;}
+.backPasswordBox .tellBack:hover{text-decoration:none;color:#fff;}
+.zjDiv {margin-top: 23px;padding: 10px 82px;font-size: 16px;border: 1px solid #8d8989;}
+.backPer {display: inline-block;padding-left: 28px;margin-top: 10px;color: #dd4f50;background: url(/static/images/backPer.png) no-repeat left center;font-size: 14px;font-weight: bold;}
+.pl70{padding-left:70px;}
+/*ÕÒ»ØÃÜÂë*/
+.tellBackBox{
+    display:none;
+    position:fixed;
+    left:50%;
+    top: 50%;
+    margin-left: -185px;
+    width:370px;
+    text-align:center;
+    z-index:200;
+    background:#fff;
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,.04), 0 2px 2px 2px rgba(0,0,0,.04);
+
+}
+.yzmDiv {
+    padding: 20px 40px;
+    background: #fff;
+    line-height:30px;
+
+}
+.yzmDiv p {
+    width: 310px;
+    text-align: left;
+}
+.tellBackBox input {
+    padding-left: 10px;
+    width: 188px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #e6e3e2;
+}
+.tellBackBox .yzmText {
+    width: 82px;
+    margin-right: 10px;
+}
+.tellBackBox .getYzm {
+    padding-left: 0;
+    width: 96px;
+    background: #dd4f50;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+}
+.width52 {
+    width: 80px;
+    text-align: right;
+}
+.sureChange {
+    margin-top: 26px;
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #dd4f50;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.tellBackBox .sureChange:hover{text-decoration:none;color:#fff;}
+/*弹框*/
+.alertMask {position: fixed;left: 0;top: 0;display: none;width: 100%;height: 100%;background: #fff;opacity: .5;filter: alpha(opacity=50);z-index:100;}
+/*点击这里弹出层*/
+.makeDesigner,.dateSucBomp {position: fixed;left: 50%;top: 50%;margin-left:-220px;display: none;width: 440px;background: #fff;border-radius: 5px;box-shadow: 0 0 10px #ccc; z-index:101;}
+.makeDesigner {height:374px;margin-top:-187px;}
+.makeHeadBox {padding: 0 18px;height: 47px;line-height: 47px;font-size: 16px;color: #fff;background: #dd4f50;}
+.makeClose {margin-top: 15px;width: 15px;height: 15px;background: url(/static/images/makeClose.png) no-repeat;cursor: pointer;}
+.makeBox {padding: 35px 56px;}
+.lh36 {line-height: 36px;}
+.form-control:focus {border: 1px solid #dd4f50;box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(232, 101, 119, .6)}
+.form-control {padding-left: 10px;width: 240px;height: 34px;line-height: 34px;border-radius: 2px;border: none;border: 1px solid #ddd;font-family: "microsoft yahei";}
+.cRed {color:red;}
+.dis-none {
+    display:none;
+}
+.fz14 {font-size: 14px;}
+.width120 {width: 120px;}
+.uiText-selfAuto .uiText-commonIcon-right {border-left: none;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.uiText-commonIcon {padding: 4px 8px;display: table-cell;height: 26px;line-height: 26px;text-align: center;border: 1px solid #ddd;background: #f4f4f4;white-space: nowrap}
+.form-control2 {width: 214px;}
+.mb14 {margin-bottom: 14px;}
+.mb30 {margin-bottom: 30px;}
+.uiBtn {width: 325px;height: 40px;line-height: 40px;background: #dd4f50;color: #fff;font-size: 14px;border: none;cursor: pointer;border-radius: 2px;}
+.makehideBox {
+    padding:40px;
+}
+.makehideBox p {
+    line-height:40px;text-align:left;
+}
+.makehideBox .tx-center {
+    text-align:center;
+    margin-top:20px;
+}
+.login-wrap {
+    position: fixed !important;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 10000;
+}
+.login-center {
+    position: absolute;
+    width: 647px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+.login-text {
+    text-align: center;
+}
+.fx_boxcnt_bt {
+    background: #009688;
+}
+.fx_additional-info {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 110px;
+}
